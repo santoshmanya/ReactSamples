@@ -96,3 +96,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+Example using CURL
+
+curl -X POST -H "Content-Type: application/json" \
+-d '{"text": "Your sample text to check for spam"}' \
+http://localhost:YOUR_API_PORT/api/predict
