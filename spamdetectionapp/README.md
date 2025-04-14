@@ -24,7 +24,10 @@ To get a spam prediction, you need to send a request to the API endpoint.
 **Endpoint:**
 
 
-**(Note:** Replace `/api/predict` with your actual API endpoint if different.)
+[**(Note:** Replace `/api/predict` with your actual API endpoint if different.)](http://127.0.0.1:5000/predict)
+
+![image](https://github.com/user-attachments/assets/a5c89ebb-f4bc-47b0-9da9-ca9944587d49)
+
 
 **Request Body:**
 
