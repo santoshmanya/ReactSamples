@@ -13,6 +13,34 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
+## Spam Predictor API
+
+This section details how to interact with the spam prediction API integrated into this application.
+
+### Calling the API
+
+To get a spam prediction, you need to send a request to the API endpoint.
+
+**Endpoint:**
+
+
+**(Note:** Replace `/api/predict` with your actual API endpoint if different.)
+
+**Request Body:**
+
+The API expects a JSON payload with the text you want to classify.
+
+```json
+{
+  "text": "Enter the text message or email content here"
+}
+{
+  "prediction": "spam", // or "not_spam"
+  "confidence_score": 0.95 // Optional: if your API provides it
+}
+{
+  "error": "Invalid input format"
+}
 
 ### `npm test`
 
@@ -68,4 +96,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
